@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Platform, PermissionsAndroid } from 'react-native';
-import { requestNotifications, checkNotifications, RESULTS } from 'react-native-permissions';
+//import { requestNotifications, checkNotifications, RESULTS } from 'react-native-permissions';
 
 const useNotificationPermissionStatus = () => {
     if (Platform.OS === 'web') {
